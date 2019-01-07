@@ -1,0 +1,50 @@
+.newPunch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wholeBox {
+  height: 400px;
+  width: 900px;
+  background-color: #fcfcfc;
+  font-family: 'Cinzel', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 30px;
+  box-shadow: 0 2px 4px rgba(41,47,54,0.5);
+
+}
+
+input {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;  
+}
+
+select {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;  
+}
+
+.inputsBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  height: 85%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+}
+
+.buttonBox {
+   height: fit-content;
+  margin-right: 7%;
+
+}

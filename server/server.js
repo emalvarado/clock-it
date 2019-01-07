@@ -10,6 +10,16 @@ app.use(express.json())
 
 
 
+app.get('/api/punches', ctrl.getAll)
+
+app.post('/api/punches', ctrl.createPunch)
+
+app.delete(`/api/punches/:id`, ctrl.deletePunch)
+
+app.put(`/api/punches/:id`, ctrl.updatePunch)
+
+
+
 
 
 massive(CONNECTION_STRING).then(connection => {
